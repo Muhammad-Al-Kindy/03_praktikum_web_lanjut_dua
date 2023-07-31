@@ -13,7 +13,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="{{route('about')}}">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('blog')}}">Blog Entries</a>
@@ -22,7 +22,7 @@
               <a class="nav-link" href="{{route('post_detail')}}">Post Details</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="{{route('contact')}}">Contact Us</a>
             </li>
           </ul>
         </div>
